@@ -1,0 +1,1219 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color1:#E5912F;
+    --color2:#087a81;
+    --color3:#7A7A7A;
+
+}
+/* start banner section */
+.contactbanner{
+    background-image: url(../images/pexels-attie-heunis-9296985.jpg) !important;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+.contactbanner h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+/* end banner section */
+/* start address section*/
+
+.addresssection{
+    display: flex;
+
+}
+.getintouch{
+    height: auto;
+    width: 50%;
+    padding-left: 30px;
+    background-color: var(--color1);
+    padding-top: 50px;
+}
+.getintouch h2{
+    font-size: 50px;
+    color: var(--color2);
+}
+.getintouch p{
+    color: white;
+}
+.cards{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imag{
+    width: 22%;
+}
+.form{
+    height: auto;
+    width: 50%;
+    padding-top: 50px;
+    background-color: var(--color2);
+    
+    
+}
+.form h1{
+    color: var(--color2);
+    font-size: 45px;
+    text-align: center;
+    color: var(--color2);
+    padding-left: 150px;
+
+}
+.contact-form-1{
+    width:60%;
+    height:auto;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 8px;
+    margin-bottom:50px;
+    margin-left: 200px;
+}
+.split input{
+    width:44%;
+    padding:6px;
+    margin-bottom:20px;
+    background-color: rgb(245,245,245);
+    border: none;
+
+}
+input{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px !important;
+    background-color:rgb(245,245,245);
+    border:none;
+}
+textarea{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px;
+    background-color:rgb(245,245,245);
+    border:none;
+    
+}
+
+
+.submit-button {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 0;
+    color:white;
+    background-color:var(--color2);
+    /* border:.5px solid white; */
+    z-index: 1;
+    transition: color 0.5s;
+    text-align: center;
+    position: relative;
+    margin-top:10px;
+    margin-right:10px;
+    border-radius:0px;
+    font-size:18PX;
+
+}
+.submit-button:hover {
+    color:var(--white);
+   
+    
+}
+/* end address section*/
+/* start map section*/
+
+.mapsection{
+    margin-top: 30px;
+    
+
+}
+.mapsection h2{
+    font-size: 50px;
+    color: var(--color2);
+    text-align: center;
+}
+.mapsection p{
+    text-align: center;
+    
+}
+iframe{
+    width: 100%;
+    height: 400px;
+    padding-top: 30px;
+}
+/* end map section*/
+
+@media screen and (max-width:320px) {
+   /* start banner section */
+.contactbanner{
+    background-image: url(../images/pexels-attie-heunis-9296985.jpg) !important;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
+.contactbanner h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    position: absolute !important;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start address section*/
+
+.addresssection{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.getintouch{
+    height: auto;
+    width: 100%;
+    padding-left: 30px;
+}
+.getintouch h2{
+    font-size: 30px;
+    color: var(--color2);
+}
+
+.form{
+    height: auto;
+    width: 100%;
+    
+    
+}
+.form h1{
+    color: var(--color2);
+    font-size: 30px;
+    text-align: center !important;
+    align-items: center;
+    padding-left: 45px;
+    padding-top: 50px;
+    
+
+}
+.contact-form-1{
+    width:100%;
+    height:auto;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 8px;
+    margin-bottom:50px;
+    margin-left: 10px;
+}
+.split input{
+    width:44%;
+    padding:6px;
+    margin-bottom:20px;
+    background-color: rgb(245,245,245);
+    border: none;
+
+}
+input{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px !important;
+    background-color:rgb(245,245,245);
+    border:none;
+}
+textarea{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px;
+    background-color:rgb(245,245,245);
+    border:none;
+    
+}
+
+
+.submit-button {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 0;
+    color:white;
+    background-color:var(--color2);
+    /* border:.5px solid white; */
+    z-index: 1;
+    transition: color 0.5s;
+    text-align: center;
+    position: relative;
+    margin-top:10px;
+    margin-right:10px;
+    border-radius:0px;
+    font-size:18PX;
+
+}
+.submit-button:hover {
+    color:var(--white);
+   
+    
+}
+/* end address section*/
+/* start map section*/
+
+
+.mapsection h2{
+    font-size: 30px;
+    color: var(--color2);
+    text-align: center;
+}
+.mapsection p{
+    text-align: center;
+    padding-top: 10px;
+}
+/* end map section*/
+
+ 
+}
+
+
+@media screen and (min-width:321px) and (max-width:425px) {
+       /* start banner section */
+.contactbanner{
+    background-image: url(../images/pexels-attie-heunis-9296985.jpg) !important;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
+.contactbanner h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    position: absolute !important;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start address section*/
+
+.addresssection{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.getintouch{
+    height: auto;
+    width: 100%;
+    padding-left: 30px;
+}
+.getintouch h2{
+    font-size: 30px;
+    color: var(--color2);
+}
+.getintouch p{
+    color: white;    
+}
+.form{
+    height: auto;
+    width: 100%;
+    
+    
+}
+.form h1{
+    color: var(--color2);
+    font-size: 30px;
+    text-align: center !important;
+    align-items: center;
+    padding-left: 45px;
+    padding-top: 50px;
+    
+
+}
+.contact-form-1{
+    width:100%;
+    height:auto;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 8px;
+    margin-bottom:50px;
+    margin-left: 10px;
+}
+.split input{
+    width:44%;
+    padding:6px;
+    margin-bottom:20px;
+    background-color: rgb(245,245,245);
+    border: none;
+
+}
+input{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px !important;
+    background-color:rgb(245,245,245);
+    border:none;
+}
+textarea{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px;
+    background-color:rgb(245,245,245);
+    border:none;
+    
+}
+
+
+.submit-button {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 0;
+    color:white;
+    background-color:var(--color2);
+    /* border:.5px solid white; */
+    z-index: 1;
+    transition: color 0.5s;
+    text-align: center;
+    position: relative;
+    margin-top:10px;
+    margin-right:10px;
+    border-radius:0px;
+    font-size:18PX;
+
+}
+.submit-button:hover {
+    color:var(--white);
+    
+   
+    
+}
+/* end address section*/
+/* start map section*/
+
+
+.mapsection h2{
+    font-size: 30px;
+    color: var(--color2);
+    text-align: center;
+}
+.mapsection p{
+    text-align: center;
+    padding-top: 10px;
+}
+/* end map section*/
+
+ 
+}
+
+
+@media screen and (min-width:426px) and (max-width:600px) {
+           /* start banner section */
+.contactbanner{
+    background-image: url(../images/pexels-attie-heunis-9296985.jpg) !important;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    
+}
+.contactbanner h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: absolute !important;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start address section*/
+
+.addresssection{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.getintouch{
+    height: auto;
+    width: 100%;
+    padding-left: 30px;
+}
+.getintouch h2{
+    font-size: 30px;
+    color: var(--color2);
+}
+.getintouch p{
+    color: white;    
+}
+.form{
+    height: auto;
+    width: 100%;
+    
+    
+}
+.form h1{
+    color: var(--color2);
+    font-size: 30px;
+    text-align: center !important;
+    align-items: center;
+    padding-left: 45px;
+    padding-top: 50px;
+    
+
+}
+.contact-form-1{
+    width:100%;
+    height:auto;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 8px;
+    margin-bottom:50px;
+    margin-left: 10px;
+}
+.split input{
+    width:44%;
+    padding:6px;
+    margin-bottom:20px;
+    background-color: rgb(245,245,245);
+    border: none;
+
+}
+input{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px !important;
+    background-color:rgb(245,245,245);
+    border:none;
+}
+textarea{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px;
+    background-color:rgb(245,245,245);
+    border:none;
+    
+}
+
+
+.submit-button {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 0;
+    color:white;
+    background-color:var(--color2);
+    /* border:.5px solid white; */
+    z-index: 1;
+    transition: color 0.5s;
+    text-align: center;
+    position: relative;
+    margin-top:10px;
+    margin-right:10px;
+    border-radius:0px;
+    font-size:18PX;
+
+}
+.submit-button:hover {
+    color:var(--white);
+   
+    
+}
+/* end address section*/
+/* start map section*/
+
+.mapsection h2{
+    font-size: 30px;
+    color: var(--color2);
+    text-align: center;
+}
+.mapsection p{
+    text-align: center;
+    padding-top: 10px;
+}
+/* end map section*/
+
+
+ 
+}
+
+
+
+@media screen and (min-width:601px) and (max-width:768px) {
+              /* start banner section */
+.contactbanner{
+    background-image: url(../images/pexels-attie-heunis-9296985.jpg) !important;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
+.contactbanner h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: absolute !important;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start address section*/
+
+.addresssection{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.getintouch{
+    height: auto;
+    width: 100%;
+    padding-left: 30px;
+}
+.getintouch h2{
+    font-size: 30px;
+    color: var(--color2);
+}
+.getintouch p{
+    color: white;    
+}
+.form{
+    height: auto;
+    width: 100%;
+    
+    
+}
+.form h1{
+    color: var(--color2);
+    font-size: 30px;
+    text-align: center !important;
+    align-items: center;
+    padding-left: 45px;
+    padding-top: 50px;
+    
+
+}
+.contact-form-1{
+    width:100%;
+    height:auto;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 8px;
+    margin-bottom:50px;
+    margin-left: 10px;
+}
+.split input{
+    width:44%;
+    padding:6px;
+    margin-bottom:20px;
+    background-color: rgb(245,245,245);
+    border: none;
+
+}
+input{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px !important;
+    background-color:rgb(245,245,245);
+    border:none;
+}
+textarea{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px;
+    background-color:rgb(245,245,245);
+    border:none;
+    
+}
+
+
+.submit-button {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 0;
+    color:white;
+    background-color:var(--color2);
+    /* border:.5px solid white; */
+    z-index: 1;
+    transition: color 0.5s;
+    text-align: center;
+    position: relative;
+    margin-top:10px;
+    margin-right:10px;
+    border-radius:0px;
+    font-size:18PX;
+
+}
+.submit-button:hover {
+    color:var(--white);
+   
+    
+}
+/* end address section*/
+/* start map section*/
+
+.mapsection{
+    padding: 20px;
+    
+
+}
+.mapsection h2{
+    font-size: 30px;
+    color: var(--color2);
+    text-align: center;
+}
+.mapsection p{
+    text-align: center;
+    padding-top: 10px;
+}
+/* end map section*/
+ 
+}
+
+
+@media screen and (min-width:769px) and (max-width:900px) {
+               /* start banner section */
+.contactbanner{
+    background-image: url(../images/pexels-attie-heunis-9296985.jpg) !important;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
+.contactbanner h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: absolute !important;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start address section*/
+
+.addresssection{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.getintouch{
+    height: auto;
+    width: 100%;
+    padding-left: 30px;
+}
+.getintouch h2{
+    font-size: 30px;
+    color: var(--color2);
+}
+.getintouch p{
+    color: white;    
+}
+.form{
+    height: auto;
+    width: 100%;
+    
+    
+}
+.form h1{
+    color: var(--color2);
+    font-size: 30px;
+    text-align: center !important;
+    align-items: center;
+    padding-left: 45px;
+    padding-top: 50px;
+    
+
+}
+.contact-form-1{
+    width:100%;
+    height:auto;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 8px;
+    margin-bottom:50px;
+    margin-left: 10px;
+}
+.split input{
+    width:44%;
+    padding:6px;
+    margin-bottom:20px;
+    background-color: rgb(245,245,245);
+    border: none;
+
+}
+input{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px !important;
+    background-color:rgb(245,245,245);
+    border:none;
+}
+textarea{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px;
+    background-color:rgb(245,245,245);
+    border:none;
+    
+}
+
+
+.submit-button {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 0;
+    color:white;
+    background-color:var(--color2);
+    /* border:.5px solid white; */
+    z-index: 1;
+    transition: color 0.5s;
+    text-align: center;
+    position: relative;
+    margin-top:10px;
+    margin-right:10px;
+    border-radius:0px;
+    font-size:18PX;
+
+}
+.submit-button:hover {
+    color:var(--white);
+   
+    
+}
+/* end address section*/
+/* start map section*/
+
+.mapsection h2{
+    font-size: 30px;
+    color: var(--color2);
+    text-align: center;
+}
+.mapsection p{
+    text-align: center;
+    padding-top: 10px;
+}
+/* end map section*/
+
+}
+
+
+
+@media screen and (min-width:901px) and (max-width:991px) {
+                   /* start banner section */
+.contactbanner{
+    background-image: url(../images/pexels-attie-heunis-9296985.jpg) !important;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
+.contactbanner h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: absolute !important;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start address section*/
+
+.addresssection{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.getintouch{
+    height: auto;
+    width: 100%;
+    padding-left: 30px;
+}
+.getintouch h2{
+    font-size: 30px;
+    color: var(--color2);
+}
+.getintouch p{
+    color: white;    
+}
+.form{
+    height: auto;
+    width: 100%;
+    
+    
+}
+.form h1{
+    color: var(--color2);
+    font-size: 30px;
+    text-align: center !important;
+    align-items: center;
+    padding-left: 45px;
+    padding-top: 50px;
+    
+
+}
+.contact-form-1{
+    width:100%;
+    height:auto;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 8px;
+    margin-bottom:50px;
+    margin-left: 10px;
+}
+.split input{
+    width:44%;
+    padding:6px;
+    margin-bottom:20px;
+    background-color: rgb(245,245,245);
+    border: none;
+
+}
+input{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px !important;
+    background-color:rgb(245,245,245);
+    border:none;
+}
+textarea{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px;
+    background-color:rgb(245,245,245);
+    border:none;
+    
+}
+
+
+.submit-button {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 0;
+    color:white;
+    background-color:var(--color2);
+    /* border:.5px solid white; */
+    z-index: 1;
+    transition: color 0.5s;
+    text-align: center;
+    position: relative;
+    margin-top:10px;
+    margin-right:10px;
+    border-radius:0px;
+    font-size:18PX;
+
+}
+.submit-button:hover {
+    color:var(--white);
+   
+    
+}
+/* end address section*/
+/* start map section*/
+
+
+.mapsection h2{
+    font-size: 30px;
+    color: var(--color2);
+    text-align: center;
+}
+.mapsection p{
+    text-align: center;
+    padding-top: 10px;
+}
+/* end map section*/
+}
+
+
+@media screen and (min-width:992px) and (max-width:1024px) {
+                       /* start banner section */
+.contactbanner{
+    background-image: url(../images/pexels-attie-heunis-9296985.jpg) !important;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
+.contactbanner h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: absolute !important;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start address section*/
+
+.addresssection{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.getintouch{
+    height: auto;
+    width: 100%;
+    padding-left: 30px;
+}
+.getintouch h2{
+    font-size: 30px;
+    color: var(--color2);
+}
+.getintouch p{
+    color: white;    
+}
+.form{
+    height: auto;
+    width: 100%;
+    
+    
+}
+.form h1{
+    color: var(--color2);
+    font-size: 30px;
+    text-align: center !important;
+    align-items: center;
+    padding-left: 45px;
+    padding-top: 50px;
+    
+
+}
+.contact-form-1{
+    width:100%;
+    height:auto;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 8px;
+    margin-bottom:50px;
+    margin-left: 10px;
+}
+.split input{
+    width:44%;
+    padding:6px;
+    margin-bottom:20px;
+    background-color: rgb(245,245,245);
+    border: none;
+
+}
+input{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px !important;
+    background-color:rgb(245,245,245);
+    border:none;
+}
+textarea{
+    width:90%;
+    padding:6px;
+    margin-bottom:30px;
+    background-color:rgb(245,245,245);
+    border:none;
+    
+}
+
+
+.submit-button {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 0;
+    color:white;
+    background-color:var(--color2);
+    /* border:.5px solid white; */
+    z-index: 1;
+    transition: color 0.5s;
+    text-align: center;
+    position: relative;
+    margin-top:10px;
+    margin-right:10px;
+    border-radius:0px;
+    font-size:18PX;
+
+}
+.submit-button:hover {
+    color:var(--white);
+   
+    
+}
+/* end address section*/
+/* start map section*/
+
+
+.mapsection h2{
+    font-size: 30px;
+    color: var(--color2);
+    text-align: center;
+}
+.mapsection p{
+    text-align: center;
+    padding-top: 10px;
+}
+/* end map section*/
+
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1140px) {
+                           /* start banner section */
+.contactbanner{
+    background-image: url(../images/pexels-attie-heunis-9296985.jpg) !important;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
+.contactbanner h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: absolute !important;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+}
+

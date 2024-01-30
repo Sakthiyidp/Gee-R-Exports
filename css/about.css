@@ -1,0 +1,1668 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+    --color1:#E5912F;
+    --color2:#087a81;
+}
+/* START banner section */
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+
+/* end banner section */
+/* start aboutintro section */
+
+.about-page {
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+      ),
+      url('../images/aboutbanner.jpg') !important;
+      background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     position: relative;
+   }
+  
+  
+   .about-section {
+    position: absolute;
+    top: 50% !important;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1 !important;
+   }
+  
+   .about-page .about-section h1{
+    color: var(--white) !important;
+    z-index: 1 !important;
+    }
+
+.aboutintro{
+   display: flex;
+   justify-content: space-evenly;
+
+
+}
+.aboutimage{
+    width: 43%;
+    height: auto;
+}
+.aboutcontent {
+    width: 43%;
+    height: auto;
+    
+}
+.aboutcontent h1{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(211, 105, 7);
+
+}
+.aboutcontent h2{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(6, 6, 110);
+
+}
+.aboutcontent p{
+    font-size: 17px;
+    margin-top:10px ;
+    text-align: justify;
+    line-height: 1.2;
+}
+button{
+    padding: 15px;
+    border: 2px solid rgb(255, 136, 0);
+    margin-top: 20px;
+    font-weight: 600;
+    background-color: #E5912F;
+    color: aliceblue;
+}
+/* end aboutintro section */
+
+/* start mission section */
+.missionsection{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px;
+    margin-top: 5%;
+}
+.mission{
+    margin: 20PX;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 40px;
+}
+.mission h3{
+    margin-top: 20PX;
+    color: var(--color1);
+    font-size: 20px;
+}
+.mission P{
+    margin-top: 20PX;
+    line-height: 1.2;
+    font-size: 17px;
+}
+/* end mission section */
+
+/* Counter Section */
+
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    margin-top: 5%;
+    text-align: center; 
+ 
+    background: linear-gradient(90deg, rgba(31, 56, 157, 1) 35%, rgba(40, 142, 114, 1) 100%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    position: relative;
+
+}
+
+.container1 {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    z-index: 1 !important;
+
+
+
+}
+
+.container1 .num {
+    font-weight: 500;
+    margin-bottom: 2%;
+    font-size: 50px;
+    color: var(--color1);
+}
+
+.container1 .text {
+    font-weight: bolder;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.counter .plus {
+    color: rgb(255, 255, 255) !important;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.container1 .changecolor {
+    color: rgb(224, 229, 255);
+}
+
+/* Counter section completed */
+/* FAQ START */
+.faq-page1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    display: flex;
+    
+    justify-content: center;
+    
+    padding: 50px 0px;
+    }
+  
+  .faq-heading {
+    font-family: Lato;   
+    font-weight: 400;
+    font-size: 18px;
+     -webkit-transition: text-indent 0.2s;
+    text-indent: 20px;
+    color: black;
+    padding-bottom: 10px;
+   
+  }
+  
+  .faq-text {
+    font-family: Open Sans;   
+    font-weight: 400;
+    color: black;
+    width:95%;
+    height: auto !important;
+    padding-left:20px;
+    margin-bottom:5px;
+    padding-top: 5px;
+    height: 100px !important;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  
+  .faq input[type="checkbox"]:checked + label{
+    height: auto !important;
+  }
+  
+  .faq {
+    width: 43%;
+    height: 100%;
+    /* margin: 0 auto; */
+    margin: 20px;
+    background: white;
+    border-radius: 4px;
+    position: relative;
+    border: 1px solid #E1E1E1;
+    margin-left: 10px;
+     
+  }
+   
+  .faq-head h3{
+    color: var(--black) !important;
+  }
+  
+  .faq-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+  }
+  
+  .faq-img img{
+    height: 400px;
+    width: 550px;
+    object-fit: cover;
+    border: 5px solid var(--color1) !important;
+    border-radius: 20px;
+     z-index: 10 !important;
+     }
+  .faq label {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    height: 56px;
+    padding-top:20px;
+   
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #E1E1E1;
+  }
+  
+  .faq-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header-border {
+    height: 55px;
+    width: 8px;
+    background-color: var(--color1);
+  }
+  
+  .faq input[type="checkbox"] {
+    display: none;
+  }
+  
+  .faq .faq-arrow {
+    width: 10px;
+    height: 10px;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    border-top: 2px solid var(--color1);
+    border-right: 2px solid var(--color1);
+    font-weight: 900 !important;
+     float: right;
+    position: relative;
+    top: -30px;
+    right: 27px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+           
+  }
+  
+   .faq input[type="checkbox"]:checked + label > .faq-arrow {
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+   .faq input[type="checkbox"]:checked + label {
+    display: block;
+    background: rgba(255,255,255,255) !important;
+    color: #4f7351;
+    height: 200px;
+    transition: height 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+   .faq input[type='checkbox']:not(:checked) + label {
+    display: block;
+    transition: height 0.8s;
+    height: 50px;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  /* End FAQ */
+
+
+
+@media screen and (max-width:320px) {
+/* START banner section */
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+.banner{
+    background-image: url(images/aboutbanner.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    
+    opacity: 1;
+}
+.banner h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    
+    position: absolute  !important ;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start aboutintro section */
+.aboutintro{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin: 10PX;
+
+
+}
+.aboutimage{
+    width: 100%;
+    height: auto;
+}
+.aboutimage img {
+    width: 100%;
+    height: 300px;
+
+}
+.aboutcontent {
+    width: 100%;
+    height: auto;
+}
+.aboutcontent h1{
+    font-size: 25px;
+    margin-top: 10px;
+    color: rgb(211, 105, 7);
+
+}
+.aboutcontent h2{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(6, 6, 110);
+
+}
+.aboutcontent p{
+    font-size: 16px;
+    margin-top:10px ;
+    text-align: justify;
+}
+button{
+    padding: 10px;
+    border: 2px solid rgb(255, 136, 0);
+    margin-top: 20px;
+    font-weight: 600;
+    background-color: #E5912F;
+    color: aliceblue;
+}
+/* end aboutintro section */
+
+
+/* start mission section */
+.missionsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-top: 5%;
+}
+.mission{
+    margin: 10PX;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+.mission h3{
+    margin-top: 20PX;
+    color: var(--color1);
+    font-size: 20px;
+}
+.mission P{
+    margin-top: 20PX;
+    line-height: 1.2;
+    font-size: 16px;
+}
+/* end mission section */
+/* Counter Section */
+
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 5%;
+    text-align: center; 
+ 
+    background: linear-gradient(90deg, rgba(31, 56, 157, 1) 35%, rgba(40, 142, 114, 1) 100%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    position: relative;
+
+}
+
+.container1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    z-index: 1 !important;
+
+
+
+}
+
+.container1 .num {
+    font-weight: 500;
+    margin-bottom: 2%;
+    font-size: 40px;
+    color: var(--color1);
+}
+
+.container1 .text {
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(249, 252, 255);
+}
+
+.counter .plus {
+    color: var(--color1);
+    font-weight: bolder;
+
+
+    font-size: 30px !important;
+}
+.counter{
+    margin-top: 20px;
+}
+.container1 .changecolor {
+    color: rgb(224, 229, 255);
+}
+
+/* Counter section completed */
+
+
+/* /========faq Section Start==========/ */
+
+ 
+.faq-page1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 50px 0px;
+    }
+  
+  .faq-heading {
+    font-family: Lato;   
+    font-weight: 400;
+    font-size: 18px;
+     -webkit-transition: text-indent 0.2s;
+    text-indent: 20px;
+    color: black;
+    padding-bottom: 10px;
+   
+  }
+  
+  .faq-text {
+    font-family: Open Sans;   
+    font-weight: 400;
+    color: black;
+    width:95%;
+    height: auto !important;
+    padding-left:20px;
+    margin-bottom:5px;
+    padding-top: 5px;
+    height: 100px !important;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  
+  .faq input[type="checkbox"]:checked + label{
+    height: auto !important;
+  }
+  
+  .faq {
+    width: 90%;
+    height: 100%;
+    /* margin: 0 auto; */
+    margin: 20px;
+    background: white;
+    border-radius: 4px;
+    position: relative;
+    border: 1px solid #E1E1E1;
+    margin-left: 10px;
+     
+  }
+   
+  .faq-head h3{
+    color: var(--black) !important;
+  }
+  
+  .faq-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+  }
+  
+  .faq-img img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: 5px solid var(--color1) !important;
+    border-radius: 20px;
+     z-index: 10 !important;
+     }
+  .faq label {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    height: 56px;
+    padding-top:20px;
+   
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #E1E1E1;
+  }
+  
+  .faq-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header-border {
+    height: 55px;
+    width: 8px;
+    background-color: var(--color1);
+  }
+  
+  .faq input[type="checkbox"] {
+    display: none;
+  }
+  
+  .faq .faq-arrow {
+    width: 10px;
+    height: 10px;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    border-top: 2px solid var(--color1);
+    border-right: 2px solid var(--color1);
+    font-weight: 900 !important;
+     float: right;
+    position: relative;
+    top: -30px;
+    right: 27px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+           
+  }
+  
+   .faq input[type="checkbox"]:checked + label > .faq-arrow {
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+   .faq input[type="checkbox"]:checked + label {
+    display: block;
+    background: rgba(255,255,255,255) !important;
+    color: #4f7351;
+    height: 200px;
+    transition: height 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+   .faq input[type='checkbox']:not(:checked) + label {
+    display: block;
+    transition: height 0.8s;
+    height: 50px;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+   /* .faq-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black) !important;
+    opacity: 0.5;
+    border-radius: 20px;
+  
+   } */
+  
+   .faq-one{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin:10px;
+   }
+  
+  
+
+}
+
+
+
+
+@media screen and (min-width:321px) and (max-width:425px) {
+/* START banner section */
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+.banner{
+    background-image: url(images/aboutbanner.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    
+    opacity: 1;
+}
+.banner h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    
+    position: absolute  !important ;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start aboutintro section */
+.aboutintro{
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   margin: 10PX;
+
+
+}
+.aboutimage{
+    width: 100%;
+    height: auto;
+}
+.aboutimage img {
+    width: 100%;
+    height: 300px;
+
+}
+.aboutcontent {
+    width: 100%;
+    height: auto;
+}
+.aboutcontent h1{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(211, 105, 7);
+
+}
+.aboutcontent h2{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(6, 6, 110);
+
+}
+.aboutcontent p{
+    font-size: 16px;
+    margin-top:10px ;
+    text-align: justify;
+}
+button{
+    padding: 10px;
+    border: 2px solid rgb(255, 136, 0);
+    margin-top: 20px;
+    background-color: #E5912F;
+    color: aliceblue;
+    font-weight: 600;
+
+    
+}
+/* end aboutintro section */
+
+
+/* start mission section */
+.missionsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-top: 5%;
+}
+.mission{
+    margin: 10PX;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+.mission h3{
+    margin-top: 20PX;
+    color: var(--color1);
+    font-size: 20px;
+}
+.mission P{
+    margin-top: 20PX;
+    line-height: 1.2;
+    font-size: 16px;
+}
+/* end mission section */
+/* Counter Section */
+
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 5%;
+    text-align: center; 
+ 
+    background: linear-gradient(90deg, rgba(31, 56, 157, 1) 35%, rgba(40, 142, 114, 1) 100%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    position: relative;
+
+}
+
+.container1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    z-index: 1 !important;
+
+
+
+}
+
+.container1 .num {
+    font-weight: 500;
+    margin-bottom: 2%;
+    font-size: 40px;
+    color: var(--color1);
+}
+
+.container1 .text {
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(249, 252, 255);
+}
+
+.counter .plus {
+    color: var(--color1);
+    font-weight: bolder;
+    font-size: 30px !important;
+}
+.counter{
+    margin-top: 20px;
+}
+.container1 .changecolor {
+    color: rgb(224, 229, 255);
+}
+
+/* Counter section completed */
+/* /========faq Section Start==========/ */
+
+ 
+.faq-page1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 50px 0px;
+    }
+  
+  .faq-heading {
+    font-family: Lato;   
+    font-weight: 400;
+    font-size: 18px;
+     -webkit-transition: text-indent 0.2s;
+    text-indent: 20px;
+    color: black;
+    padding-bottom: 10px;
+   
+  }
+  
+  .faq-text {
+    font-family: Open Sans;   
+    font-weight: 400;
+    color: black;
+    width:95%;
+    height: auto !important;
+    padding-left:20px;
+    margin-bottom:5px;
+    padding-top: 5px;
+    height: 100px !important;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  
+  .faq input[type="checkbox"]:checked + label{
+    height: auto !important;
+  }
+  
+  .faq {
+    width: 90%;
+    height: 100%;
+    /* margin: 0 auto; */
+    margin: 20px;
+    background: white;
+    border-radius: 4px;
+    position: relative;
+    border: 1px solid #E1E1E1;
+    margin-left: 10px;
+     
+  }
+   
+  .faq-head h3{
+    color: var(--black) !important;
+  }
+  
+  .faq-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+  }
+  
+  .faq-img img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    border: 5px solid var(--color1) !important;
+    border-radius: 20px;
+     z-index: 10 !important;
+     }
+  .faq label {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    height: 56px;
+    padding-top:20px;
+   
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #E1E1E1;
+  }
+  
+  .faq-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header-border {
+    height: 55px;
+    width: 8px;
+    background-color: var(--color1);
+  }
+  
+  .faq input[type="checkbox"] {
+    display: none;
+  }
+  
+  .faq .faq-arrow {
+    width: 10px;
+    height: 10px;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    border-top: 2px solid var(--color1);
+    border-right: 2px solid var(--color1);
+    font-weight: 900 !important;
+     float: right;
+    position: relative;
+    top: -30px;
+    right: 27px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+           
+  }
+  
+   .faq input[type="checkbox"]:checked + label > .faq-arrow {
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+   .faq input[type="checkbox"]:checked + label {
+    display: block;
+    background: rgba(255,255,255,255) !important;
+    color: #4f7351;
+    height: 200px;
+    transition: height 0.8s;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+   .faq input[type='checkbox']:not(:checked) + label {
+    display: block;
+    transition: height 0.8s;
+    height: 50px;
+    -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+   /* .faq-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black) !important;
+    opacity: 0.5;
+    border-radius: 20px;
+  
+   } */
+  
+   .faq-one{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin:10px;
+   }
+  
+   /* .copy{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    color: var(--white) !important;
+    text-align: center;
+   }
+  
+   .faq-one .copy h1 a{
+    color: var(--white) !important;
+   } */
+  
+   /* ==================== faq Section End================== */
+  
+
+}
+
+
+
+
+
+@media screen and (min-width:426px) and (max-width:600px) {
+/* START banner section */
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+.banner{
+    background-image: url(images/aboutbanner.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    
+    opacity: 1;
+}
+.banner h2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+    position: absolute  !important ;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start aboutintro section */
+.aboutintro{
+   display: flex;
+   flex-direction: column !important;
+   justify-content: space-evenly;
+   margin: 20PX;
+
+
+}
+.aboutimage{
+    width: 100%;
+    height: auto;
+}
+.aboutimage img {
+    width: 400px;
+    height: 300px;
+
+}
+.aboutcontent {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+}
+.aboutcontent h1{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(211, 105, 7);
+
+}
+.aboutcontent h2{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(6, 6, 110);
+
+}
+.aboutcontent p{
+    font-size: 17px;
+    margin-top:10px ;
+    text-align: justify;
+}
+button{
+    padding: 10px;
+    border: 2px solid rgb(255, 136, 0);
+    margin-top: 20px;
+    background-color:var(--color1) ;
+    color: aliceblue;
+    font-weight: 600;
+}
+/* start aboutintro section */
+
+/* start mission section */
+.missionsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-top: 5%;
+}
+.mission{
+    margin: 10PX;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+.mission h3{
+    margin-top: 20PX;
+    color: var(--color1);
+    font-size: 20px;
+}
+.mission P{
+    margin-top: 20PX;
+    line-height: 1.2;
+    font-size: 16px;
+}
+/* end mission section */
+
+/* Counter Section */
+
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 5%;
+    text-align: center; 
+ 
+    background: linear-gradient(90deg, rgba(31, 56, 157, 1) 35%, rgba(40, 142, 114, 1) 100%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    position: relative;
+
+}
+
+.container1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    z-index: 1 !important;
+
+
+
+}
+
+.container1 .num {
+    font-weight: 500;
+    margin-bottom: 2%;
+    font-size: 40px;
+    color: var(--color1);
+}
+
+.container1 .text {
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(249, 252, 255);
+}
+
+.counter .plus {
+    color: var(--color1);
+    font-weight: bolder;
+    font-size: 30px !important;
+}
+.counter{
+    margin-top: 20px;
+}
+.container1 .changecolor {
+    color: rgb(224, 229, 255);
+}
+
+/* Counter section completed */
+}
+
+
+@media screen and (min-width:601px) and (max-width:768px) {
+/* START banner section */
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+.banner{
+    background-image: url(images/aboutbanner.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    
+    opacity: 1;
+}
+.banner h2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+    position: absolute  !important ;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start aboutintro section */
+.aboutintro{
+   display: flex;
+   flex-direction: column-reverse;
+   justify-content: space-evenly;
+   margin: 10PX;
+
+
+}
+.aboutimage{
+    width: 100%;
+    height: auto;
+}
+.aboutimage img {
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+    align-items: center;
+
+}
+.aboutcontent {
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+}
+.aboutcontent h1{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(211, 105, 7);
+
+}
+.aboutcontent h2{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(6, 6, 110);
+
+}
+.aboutcontent p{
+    font-size: 17px;
+    margin-top:10px ;
+    text-align: justify;
+}
+.submit{
+    
+    padding: 10px;
+    border: 2px solid rgb(255, 136, 0);
+    margin-top: 20px;
+    font-weight: 600;
+    background-color: #E5912F;
+    color: aliceblue;
+    
+    
+}
+.submit a{
+    text-decoration: none;
+}
+
+/* start aboutintro section */
+
+/* start mission section */
+.missionsection{
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-top: 5%;
+}
+.mission{
+    margin: 10PX;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+.mission h3{
+    margin-top: 20PX;
+    color: var(--color1);
+    font-size: 20px;
+}
+.mission P{
+    margin-top: 20PX;
+    line-height: 1.2;
+    font-size: 16px;
+}
+/* end mission section */
+/* Counter Section */
+
+
+.wrapper {
+    width: 100%;
+    height: auto;
+    display: flex !important;
+    
+    margin-top: 5%;
+    text-align: center; 
+ 
+    background: linear-gradient(90deg, rgba(31, 56, 157, 1) 35%, rgba(40, 142, 114, 1) 100%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    align-items: center;
+    position: relative;
+
+}
+
+.container1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+    z-index: 1 !important;
+
+
+
+}
+
+.container1 .num {
+    font-weight: 500;
+    margin-bottom: 2%;
+    font-size: 40px;
+    color: var(--color1);
+}
+
+.container1 .text {
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(249, 252, 255);
+}
+
+.counter .plus {
+    color: var(--color1);
+    font-weight: bolder;
+    font-size: 30px !important;
+}
+.counter{
+    margin-top: 20px;
+}
+.container1 .changecolor {
+    color: rgb(224, 229, 255);
+}
+
+/* Counter section completed */
+}
+
+
+@media screen and (min-width:769px) and (max-width:900px) {
+/* START banner section */
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+.banner{
+    background-image: url(images/aboutbanner.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    
+    opacity: 1;
+}
+.banner h2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+    position: absolute  !important ;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start aboutintro section */
+.aboutintro{
+   display: flex;
+  
+   justify-content: space-evenly;
+   margin: 10PX;
+
+
+}
+.aboutimage{
+    width: 45%;
+    height: auto;
+}
+.aboutimage img {
+    width: 400px;
+    height: 350px;
+
+}
+.aboutcontent {
+    width: 45%;
+    height: auto;
+    margin: 10px;
+}
+.aboutcontent h1{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(211, 105, 7);
+
+}
+.aboutcontent h2{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(6, 6, 110);
+
+}
+.aboutcontent p{
+    font-size: 17px;
+    margin-top:10px ;
+    text-align: justify;
+}
+button{
+    padding: 10px;
+    border: 2px solid rgb(255, 136, 0);
+    margin-top: 20px; font-weight: 600;
+    background-color: #E5912F;
+    color: aliceblue;
+}
+/* start aboutintro section */
+/* start mission section */
+.missionsection{
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-top: 5%;
+}
+.mission{
+    margin: 10PX;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+.mission h3{
+    margin-top: 20PX;
+    color: var(--color1);
+    font-size: 20px;
+}
+.mission P{
+    margin-top: 20PX;
+    line-height: 1.2;
+    font-size: 16px;
+}
+/* end mission section */
+}
+
+
+
+@media screen and (min-width:901px) and (max-width:991px) {
+/* START banner section */
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+.banner{
+    background-image: url(images/aboutbanner.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    
+    opacity: 1;
+}
+.banner h2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+    position: absolute  !important ;
+    z-index: 10 !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start aboutintro section */
+.aboutintro{
+   display: flex;
+  
+   justify-content: space-evenly;
+   margin: 10PX;
+
+
+}
+.aboutimage{
+    width: 47%;
+    height: auto;
+}
+.aboutimage img {
+    width: 400px;
+    height: 350px;
+
+}
+.aboutcontent {
+    width: 47%;
+    height: auto;
+    margin: 10px;
+}
+.aboutcontent h1{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(211, 105, 7);
+
+}
+.aboutcontent h2{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(6, 6, 110);
+
+}
+.aboutcontent p{
+    font-size: 17px;
+    margin-top:10px ;
+    text-align: justify;
+}
+button{
+    padding: 10px;
+    border: 2px solid rgb(255, 136, 0);
+    margin-top: 20px;
+    font-weight: 600;
+    background-color: #E5912F;
+    color: aliceblue;
+}
+/* start aboutintro section */
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1024px) {
+/* START banner section */
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+.banner{
+    background-image: url(images/aboutbanner.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    position: relative;
+    
+    opacity: 1;
+}
+.banner h2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+    position: absolute  !important ;
+    z-index: 10 !important;
+    top: 50%;
+
+    
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* end banner section */
+/* start aboutintro section */
+.aboutintro{
+   display: flex;
+  
+   justify-content: space-evenly;
+   margin: 10PX;
+
+
+}
+.aboutimage{
+    width: 47%;
+    height: auto;
+}
+.aboutimage img {
+    width: 400px;
+    height: 350px;
+
+}
+.aboutcontent {
+    width: 47%;
+    height: auto;
+    margin: 10px;
+}
+.aboutcontent h1{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(211, 105, 7);
+
+}
+.aboutcontent h2{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(6, 6, 110);
+
+}
+.aboutcontent p{
+    font-size: 17px;
+    margin-top:10px ;
+    text-align: justify;
+}
+button{
+    padding: 10px;
+    border: 2px solid rgb(255, 136, 0);
+    margin-top: 20px;
+    font-weight: 600;
+    background-color: #E5912F;
+    color: aliceblue;
+}
+/* start aboutintro section */
+}
